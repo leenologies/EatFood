@@ -1,0 +1,237 @@
+//Sass goes here
+
+@import 'reset.scss';
+$Ngreen:#00e52f;
+$Nyellow:#f9e559;
+$liteGray:#d3d3d3;
+$darkGray:#666;
+$paragraphGray:#B8B8B8;
+
+//Class that hold the frontpage elements except header
+.content{
+  width:960px;
+  height:auto;
+  padding-top:80px;
+  margin:0 auto;
+ }
+
+//Very upper bar with survey
+header{
+   width:100%;
+   height:30px;
+   background-color:$Ngreen;
+   text-align:center;
+   position:fixed;
+   border-bottom:1px solid #000; 
+   p{
+      display:inline;
+      font-family:'helvetica';
+      font-size:12px;
+      color:white;
+     
+    a{
+       
+       color: white;
+       font-weight:bold;
+       text-decoration:none;
+        margin:0.5% 0 0.5% 10%;
+       }      
+      
+     }
+    }
+    
+
+
+//Logo + topnav links
+nav{
+ 
+   padding-bottom:20px;
+   img{
+    width:25%;
+    height:25%;
+    border-bottom:1px solid $liteGray;
+    
+    }
+   ul{
+   display:inline;
+   float:right;
+   li{
+       float:left;
+       margin:20px 35px 0 0;
+       list-style-type:none;
+       a{
+       font-family:'Gill Sans';
+       font-size:1em;
+       color:black;
+       text-decoration:none;
+       &:hover{
+       color:#999;
+       
+       }
+       }
+      }
+     }
+   }
+   
+
+.slider{
+width: 960px;
+height: 500px;
+overflow:hidden;
+margin-bottom:30px; 
+
+   .slides{
+     display:block;
+     width:6000px;
+     height:500px;
+     margin:0;
+     padding:0;
+   }
+  .slide{
+  float:left;
+  list-style-type:none;
+  width:960px;
+  height:500px;
+  }   
+}
+
+
+//Stories about the chef,awards,customer encourage for feedback
+article{
+  padding:20px 0 20px 0;
+ -moz-column-count:3;
+ -webkit-column-count:3;
+ -moz-column-width:270px;
+ -webkit-column-width:270px;
+ border-top:1px solid $liteGray;
+ border-bottom:1px solid $liteGray;
+ img{
+ width:50%;
+ height:50%;
+ border-radius:100px;
+ text-align:center;
+ }
+ p{
+ width:230px;
+ font-family:'helvetica';
+ font-size:12px;
+ color:$paragraphGray;
+ padding-top:20px;
+ &:first-line{
+ font-weight:bold;
+ color:$darkGray;
+ 
+ }
+ }
+ }
+ 
+//Logos of wholeseller we buy from
+#wholesellers{
+width: 960px;
+height: 160px;
+margin:30px 0 30px 0; 
+padding-bottom:30px;
+border-bottom:1px solid $liteGray;
+
+.logos{
+     display:inline;
+    }
+
+.log{
+   float:left;
+  list-style-type:none;
+  width:141px;
+  height:141px;
+  img{
+    width:80%;
+    height:80%;
+  }
+}
+
+p{
+ 
+ font-family:'Georgia';
+ font-weight:bold;
+ font-size:20px;
+ color:$darkGray;
+ text-align:center;
+ padding-bottom:20px;
+ 
+
+}
+
+
+}
+
+
+//An Excerpt of our Mission Statement
+#mission{
+width:960px;
+ margin-top:20px;
+ h2{
+ text-align:center;
+ 
+ }
+ 
+ p{
+ width:700px;
+ font-family:'helvetica';
+ font-size:18px;
+ color:$paragraphGray;
+ padding-top:20px;
+ margin:0 auto;
+ 
+ 
+ }
+ 
+}
+
+
+
+footer{
+width:100%;
+height:200px;
+background-color:#333;
+margin-top:40px;
+p{
+font-family:'helvetica';
+font-size:12px;
+color:white;
+margin-top:20px;
+text-align:center;
+
+}
+//Join mail list
+form{
+padding-top:30px;
+ text-align:center;
+ margin-bottom:15px;
+
+}
+
+//Social media icons with links
+//ul is here
+.socIcons{
+   text-align:center;
+  
+  list-style-type:none;
+ //li is here 
+  .icons{
+    display:inline;
+   a{ 
+    
+    img{
+    margin-top:20px;
+     
+    
+    }
+    }
+}
+
+}
+ 
+
+
+}
+
+
