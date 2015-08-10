@@ -1,7 +1,7 @@
 <?php
-$dsn = 'mysql:host=mysql.hostinger.co.uk;dbname=u848587893_con';
-$user = 'u848587893_man';
-$pass = 'portmore38';
+$dsn = 'mysql**********************';
+$user = '************';
+$pass = '********';
 
 try{
 $dcon= new PDO($dsn,$user,$pass);
