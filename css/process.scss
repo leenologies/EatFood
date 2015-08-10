@@ -1,5 +1,12 @@
 //Sass goes here
 
+/**********************
+Main code
+***********************/
+
+
+
+
 @import 'reset.scss';
 $Ngreen:#00e52f;
 $Nyellow:#f9e559;
@@ -44,12 +51,12 @@ header{
 
 //Logo + topnav links
 nav{
- 
-   padding-bottom:20px;
+  border-bottom:1px solid $liteGray;
+   padding-bottom:40px;
    img{
     width:25%;
     height:25%;
-    border-bottom:1px solid $liteGray;
+    
     
     }
    ul{
@@ -78,6 +85,7 @@ nav{
 width: 960px;
 height: 500px;
 overflow:hidden;
+margin-top:30px;
 margin-bottom:30px; 
 
    .slides{
@@ -129,8 +137,8 @@ article{
 #wholesellers{
 width: 960px;
 height: 160px;
-margin:30px 0 30px 0; 
-padding-bottom:30px;
+margin:0 auto; 
+padding:30px 0 30px 0;
 border-bottom:1px solid $liteGray;
 
 .logos{
@@ -223,15 +231,122 @@ padding-top:30px;
     img{
     margin-top:20px;
      
+    }
+    }
+   }
+}
+}
+
+
+
+/**********************
+About
+***********************/
+#bout{
+      width:800px;
+      margin: 0 auto;
+      padding:50px 0 50px 0;
+      
+      
+      
+     
+      
+    h1{
+      width:100%;
+      
+      font-family:"Georgia";
+      font-size:40px;
+      color:$darkGray;
+      text-align:left;
+      padding:50px 0 50px 0;
+      clear:both;
     
     }
+    p{
+       width:100%;
+       font-family:'helvetica';
+       font-size:12px;
+       margin: 0 auto;
+       color:$paragraphGray;
+       text-align:left;
+    
+    } 
+    ul{
+     display:inline;
+    li{
+     float:left;
+    img{
+    width:70%;
+    height:70%;
+    border-radius:120px;
+    
     }
-}
+    
+    
+    }
+    
+    }
+
+
+
 
 }
- 
 
 
+
+
+
+
+
+
+
+
+
+/**********************
+Surrey.php code
+***********************/
+
+.spac {
+    -moz-tab-size: 4; /* Code for Firefox */
+     -webkit-tab-size: 4;
+    -o-tab-size: 4; /* Code for Opera 10.6-12.1 */
+    tab-size: 4;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

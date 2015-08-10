@@ -1,7 +1,7 @@
-<?php
+
 <footer>
 <form action="maillist.php" method="POST">
-<input type="email" name="mail" value="Join our mail List" />
+<input type="email" name="mail" placeholder="Join our mail List" />
 <input type="submit" value="Submit" />
 
 </form>

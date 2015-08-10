@@ -1,10 +1,32 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Powered by EatFood | | Buckhead Atlanta Finest</title>
+<link rel="stylesheet" href="css/output.css">
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header>
+<p>2232 Eat Road | Atlanta GA 30060 | 678-324-0732 | Hours Sun-Sat 9am to 10pm</p>
+<p><a href="scripts/php/survey.php">Take our Survey</a><p>
+</header>
+<div class="content">
 
-spl_autoload_register(function($name){
-   include scripts/php/$name.'.php';
-  });
-  
-  include 'scripts/php/header.php';
+<nav>
+<img src="images/logo.png" id="logo" />
+<ul id="topnav">
+<li><a href="index.php" class="navs">Home</a></li>
+<li><a href="about.php" class="navs">About</a></li>
+<li><a href="menu.php" class="navs">Menu</a></li>
+<li><a href="contact.php" class="navs">Contact</a></li>
+</ul>
+</nav> 
+
+
+
 
 
 <section class="slider">
@@ -56,6 +78,27 @@ Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots 
 </section>
 </div>
 
- include 'scripts/php/footer.php';
+ <footer>
+<form action="maillist.php" method="POST">
+<input type="email" name="mail" placeholder="Join our mail List" />
+<input type="submit" value="Submit" />
 
-?>
+</form>
+<p>2232 Eat Road | Atlanta GA 30060 | 678-324-0732</p>
+<ul class="socIcons">
+<li class="icons"><a href="http://www.facebook.com"><img src="images/soc/facebook.png" /></a></li>
+<li class="icons"><a href="http://www.twitter.com"><img src="images/soc/twitter.png" /></a></li>
+<li class="icons"><a href="http://www.instagram.com"><img src="images/soc/instagram.png" /></a></li>
+</ul> 
+
+
+
+</footer>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+ <script src="scripts/javascript/script.js"></script>
+</body>
+</html>

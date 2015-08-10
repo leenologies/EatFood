@@ -10,13 +10,9 @@
   <![endif]-->
 </head>
 <body>
-
-
-
 <header>
 <p>2232 Eat Road | Atlanta GA 30060 | 678-324-0732 | Hours Sun-Sat 9am to 10pm</p>
 <p><a href="survey.php">Take our Survey</a><p>
-
 </header>
 <div class="content">
 
@@ -30,4 +26,3 @@
 </ul>
 </nav> 
 
-?>
